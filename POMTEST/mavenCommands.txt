@@ -1,3 +1,11 @@
-maven clean = ./mvnw clean
+maven clean = ./mvnw clean // mvn clean
 
+compile project = ./mvnw compile
 
+test project = ./mvnw test
+
+create package = ./mvnw package
+
+java -jar target/[package name (final artifact)]
+
+./mvnw spring-boot:run
